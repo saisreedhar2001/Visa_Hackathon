@@ -146,7 +146,7 @@ function LocationAutocomplete({
             setLoading(true);
             try {
                 const response = await fetch(
-                    `${API_BASE}/travel/locations/search?keyword=${encodeURIComponent(debouncedQuery)}`
+                    `${API_BASE}/api/v1/travel/locations/search?keyword=${encodeURIComponent(debouncedQuery)}`
                 );
                 const data = await response.json();
                 if (data.success) {
@@ -313,7 +313,7 @@ export default function BookTravelPage() {
             }
 
             const response = await fetch(
-                `${API_BASE}/travel/flights/search?${params}`
+                `${API_BASE}/api/v1/travel/flights/search?${params}`
             );
             const data = await response.json();
 
@@ -359,7 +359,7 @@ export default function BookTravelPage() {
             });
 
             const response = await fetch(
-                `${API_BASE}/travel/hotels/search?${params}`
+                `${API_BASE}/api/v1/travel/hotels/search?${params}`
             );
             const data = await response.json();
 

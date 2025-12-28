@@ -1,1 +1,0 @@
-self.__REACT_LOADABLE_MANIFEST="{\"app\\\\travel-plan\\\\page.tsx -> @/components/ThreeGlobe\":{\"id\":\"app\\\\travel-plan\\\\page.tsx -> @/components/ThreeGlobe\",\"files\":[\"static/chunks/_app-pages-browser_src_components_ThreeGlobe_tsx.js\"]}}"

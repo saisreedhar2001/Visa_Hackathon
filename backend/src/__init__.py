@@ -1,1 +1,0 @@
-# Global Mobility Intelligence Platform

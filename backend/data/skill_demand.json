@@ -1,0 +1,138 @@
+{
+    "in_demand_occupations": {
+        "software_engineering": {
+            "title": "Software Engineering",
+            "aliases": ["Software Developer", "Software Engineer", "Full Stack Developer", "Backend Developer", "Frontend Developer"],
+            "global_demand": "Very High",
+            "demand_by_country": {
+                "canada": { "demand": "Very High", "shortage_list": true, "noc_code": "21231" },
+                "germany": { "demand": "Very High", "shortage_list": true, "notes": "Lower Blue Card salary threshold" },
+                "usa": { "demand": "Very High", "shortage_list": false, "notes": "Specialty occupation for H-1B" },
+                "uk": { "demand": "High", "shortage_list": false },
+                "australia": { "demand": "Very High", "shortage_list": true, "anzsco": "261312" },
+                "singapore": { "demand": "Very High", "shortage_list": true },
+                "netherlands": { "demand": "Very High", "shortage_list": true },
+                "uae": { "demand": "Very High" },
+                "portugal": { "demand": "High", "tech_visa": true },
+                "japan": { "demand": "High", "hsp_points": "Bonus points for IT" }
+            }
+        },
+        "data_science": {
+            "title": "Data Science & Analytics",
+            "aliases": ["Data Scientist", "Data Analyst", "ML Engineer", "AI Engineer", "Data Engineer"],
+            "global_demand": "Very High",
+            "demand_by_country": {
+                "canada": { "demand": "Very High", "shortage_list": true },
+                "germany": { "demand": "Very High", "shortage_list": true },
+                "usa": { "demand": "Very High", "notes": "Growing demand, STEM OPT eligible" },
+                "uk": { "demand": "Very High" },
+                "australia": { "demand": "Very High", "shortage_list": true },
+                "singapore": { "demand": "Very High" },
+                "netherlands": { "demand": "Very High" }
+            }
+        },
+        "healthcare": {
+            "title": "Healthcare & Medical",
+            "aliases": ["Doctor", "Nurse", "Healthcare Professional", "Medical Technician"],
+            "global_demand": "Very High",
+            "demand_by_country": {
+                "canada": { "demand": "Very High", "shortage_list": true, "notes": "Provincial licensing required" },
+                "germany": { "demand": "Very High", "shortage_list": true, "notes": "German language required" },
+                "uk": { "demand": "Very High", "shortage_list": true },
+                "australia": { "demand": "Very High", "shortage_list": true },
+                "uae": { "demand": "Very High" }
+            },
+            "special_requirements": "Usually requires local licensing/certification"
+        },
+        "engineering": {
+            "title": "Engineering (Non-Software)",
+            "aliases": ["Mechanical Engineer", "Electrical Engineer", "Civil Engineer", "Chemical Engineer"],
+            "global_demand": "High",
+            "demand_by_country": {
+                "canada": { "demand": "High", "shortage_list": true },
+                "germany": { "demand": "Very High", "shortage_list": true },
+                "australia": { "demand": "High", "shortage_list": true },
+                "uae": { "demand": "High" }
+            }
+        },
+        "finance": {
+            "title": "Finance & Accounting",
+            "aliases": ["Financial Analyst", "Accountant", "Investment Banker", "Fintech Professional"],
+            "global_demand": "High",
+            "demand_by_country": {
+                "singapore": { "demand": "Very High", "notes": "Global finance hub" },
+                "uk": { "demand": "High", "notes": "London finance center" },
+                "uae": { "demand": "High", "notes": "Dubai as finance hub" },
+                "netherlands": { "demand": "High" }
+            }
+        },
+        "skilled_trades": {
+            "title": "Skilled Trades",
+            "aliases": ["Electrician", "Plumber", "Welder", "Carpenter", "HVAC Technician"],
+            "global_demand": "High",
+            "demand_by_country": {
+                "canada": { "demand": "Very High", "shortage_list": true, "notes": "Provincial programs favor trades" },
+                "australia": { "demand": "Very High", "shortage_list": true },
+                "germany": { "demand": "High" }
+            }
+        }
+    },
+    "skill_assessment_bodies": {
+        "canada": {
+            "general": "WES (World Education Services)",
+            "engineers": "Engineers Canada",
+            "healthcare": "Provincial licensing bodies"
+        },
+        "australia": {
+            "general": "VETASSESS",
+            "engineers": "Engineers Australia",
+            "it": "ACS (Australian Computer Society)",
+            "healthcare": "AHPRA"
+        },
+        "uk": {
+            "engineers": "Engineering Council",
+            "healthcare": "GMC, NMC"
+        },
+        "germany": {
+            "general": "Anabin database for degree recognition"
+        }
+    },
+    "points_for_occupation": {
+        "canada_express_entry": {
+            "noc_0_a_b": "Eligible for Federal Skilled Worker",
+            "noc_0": "Management occupations",
+            "noc_a": "Professional occupations (degree required)",
+            "noc_b": "Technical and skilled trades"
+        },
+        "australia_points": {
+            "occupation_on_mltssl": "Eligible for 189 direct PR",
+            "occupation_on_stsol": "190/482 pathways",
+            "regional_occupation": "Additional points for regional visas"
+        }
+    },
+    "education_mapping": {
+        "phd": {
+            "canada_points": 25,
+            "australia_points": 20,
+            "japan_hsp_points": 30,
+            "general_advantage": "Highest points, research roles, academia options"
+        },
+        "masters": {
+            "canada_points": 23,
+            "australia_points": 15,
+            "japan_hsp_points": 20,
+            "general_advantage": "Strong points, management track"
+        },
+        "bachelors": {
+            "canada_points": 21,
+            "australia_points": 15,
+            "japan_hsp_points": 10,
+            "general_advantage": "Standard requirement for skilled immigration"
+        },
+        "diploma": {
+            "canada_points": 19,
+            "australia_points": 10,
+            "general_advantage": "Trades and technical roles"
+        }
+    }
+}

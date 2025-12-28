@@ -1,0 +1,105 @@
+{
+    "name": "United Arab Emirates",
+    "code": "AE",
+    "region": "Middle East",
+    "immigration_friendliness": 8,
+    "fintech_readiness": 9,
+    "processing_speed": 9,
+    "language": "Arabic",
+    "english_proficiency": "High",
+    "cost_of_living": "High",
+    "stepping_stone_potential": "High",
+    "unlocks_regions": ["Middle East", "Gateway to West"],
+    "skill_demand": ["Software Engineering", "Finance", "Marketing", "Construction", "Healthcare"],
+    "notes": "Tax-free income. Excellent stepping stone for Canada/Australia (international experience + savings). Fast visa processing. Growing tech hub.",
+    "visa_types": [
+        {
+            "type": "employment_visa",
+            "name": "Employment Visa",
+            "description": "Standard work visa sponsored by UAE employer. Most common route.",
+            "requirements": [
+                "Job offer from UAE-registered company",
+                "Attested educational documents",
+                "Medical fitness test",
+                "Emirates ID application"
+            ],
+            "processing_time": "2-3 weeks",
+            "duration": "2-3 years (renewable)",
+            "path_to_pr": "No direct PR path. Consider Golden Visa for long-term.",
+            "application_fee": "AED 300-500 (employer typically pays)",
+            "work_permitted": true,
+            "employer_tied": true,
+            "family_allowed": true,
+            "spouse_work_rights": "Can sponsor spouse visa, spouse needs own work permit",
+            "tips": [
+                "Tax-free salary - great for saving",
+                "Most employers provide housing allowance",
+                "2 years UAE experience helps Canada/Australia applications",
+                "Build international network"
+            ]
+        },
+        {
+            "type": "golden_visa",
+            "name": "Golden Visa",
+            "description": "Long-term residence visa for investors, entrepreneurs, and exceptional talents.",
+            "requirements": [
+                "One of: Investment of AED 2M+, Own property worth AED 2M+, Specialized talent, Outstanding student, Entrepreneur"
+            ],
+            "processing_time": "2-4 weeks",
+            "duration": "5-10 years (renewable)",
+            "path_to_pr": "Long-term residence, not citizenship",
+            "application_fee": "AED 2,800-4,800",
+            "work_permitted": true,
+            "employer_tied": false,
+            "family_allowed": true,
+            "tips": [
+                "Not tied to employer",
+                "Can sponsor family long-term",
+                "Property investment qualifies"
+            ]
+        },
+        {
+            "type": "green_visa",
+            "name": "Green Visa",
+            "description": "Self-sponsored residence visa for skilled workers and freelancers.",
+            "requirements": [
+                "Bachelor's degree or specialized diploma",
+                "Valid employment contract or self-employment proof",
+                "Minimum salary AED 15,000/month OR 3 years experience",
+                "Health insurance"
+            ],
+            "processing_time": "2-3 weeks",
+            "duration": "5 years",
+            "path_to_pr": "Long-term residence",
+            "application_fee": "AED 2,500",
+            "work_permitted": true,
+            "employer_tied": false,
+            "tips": [
+                "Can change employers without visa change",
+                "6-month grace period after job loss",
+                "Good for freelancers"
+            ]
+        },
+        {
+            "type": "freelance_visa",
+            "name": "Freelance/Remote Work Visa",
+            "description": "For freelancers and remote workers. Work for clients globally from UAE.",
+            "requirements": [
+                "Proof of freelance income",
+                "Professional portfolio",
+                "Health insurance",
+                "Minimum income proof"
+            ],
+            "processing_time": "2-3 weeks",
+            "duration": "1-5 years",
+            "path_to_pr": "Can upgrade to Golden Visa",
+            "application_fee": "AED 7,500-15,000 (varies by free zone)",
+            "work_permitted": true,
+            "tips": [
+                "Many free zones offer freelance packages",
+                "Can work for international clients",
+                "Tax-free income from anywhere"
+            ]
+        }
+    ]
+}

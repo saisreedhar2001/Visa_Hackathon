@@ -1,0 +1,116 @@
+{
+    "visa_categories": {
+        "work_visa": {
+            "description": "Employment-based visas requiring job offer",
+            "typical_duration": "1-5 years",
+            "renewability": "Usually renewable",
+            "path_to_pr": "Often leads to PR after years of work",
+            "examples": ["H-1B (US)", "Skilled Worker (UK)", "Employment Pass (SG)", "EU Blue Card (DE)"]
+        },
+        "skilled_immigration": {
+            "description": "Points-based permanent immigration for skilled workers",
+            "typical_duration": "Permanent",
+            "renewability": "N/A - Permanent status",
+            "path_to_pr": "Direct PR grant",
+            "examples": ["Express Entry (CA)", "Skilled Independent 189 (AU)", "HSP (JP)"]
+        },
+        "student_visa": {
+            "description": "Visas for international students with work rights",
+            "typical_duration": "Length of study + grace period",
+            "renewability": "Based on continued enrollment",
+            "path_to_pr": "Post-study work visa, then work-based PR",
+            "examples": ["F-1 (US)", "Student Visa (UK)", "Study Permit (CA)"]
+        },
+        "entrepreneur_visa": {
+            "description": "For starting businesses in destination country",
+            "typical_duration": "1-2 years initially",
+            "renewability": "Based on business milestones",
+            "path_to_pr": "Depends on business success",
+            "examples": ["Startup Visa (CA)", "EntrePass (SG)", "Tech Visa (PT)"]
+        },
+        "investor_visa": {
+            "description": "For high-net-worth individuals making significant investments",
+            "typical_duration": "5-10 years",
+            "renewability": "Based on maintained investment",
+            "path_to_pr": "Often direct or accelerated PR",
+            "examples": ["Golden Visa (UAE)", "EB-5 (US)", "Investor Visa (AU)"]
+        },
+        "digital_nomad_visa": {
+            "description": "For remote workers with foreign employment",
+            "typical_duration": "1-2 years",
+            "renewability": "Varies by country",
+            "path_to_pr": "Some countries allow path to residency",
+            "examples": ["Digital Nomad (PT)", "Green Visa (UAE)", "Remote Work Visa (DE)"]
+        },
+        "intracompany_transfer": {
+            "description": "Transfer within same company to foreign office",
+            "typical_duration": "3-5 years",
+            "renewability": "Limited by max duration",
+            "path_to_pr": "Can often sponsor own PR",
+            "examples": ["L-1 (US)", "ICT (UK)", "Intra-Company Transfer (CA)"]
+        },
+        "talent_visa": {
+            "description": "For individuals with exceptional ability or achievement",
+            "typical_duration": "3-5 years",
+            "renewability": "Usually renewable",
+            "path_to_pr": "Often accelerated PR path",
+            "examples": ["O-1 (US)", "Global Talent (UK)", "Tech.Pass (SG)"]
+        }
+    },
+    "path_types": {
+        "direct_pr": {
+            "description": "Single-step permanent residency",
+            "typical_timeline": "6-18 months",
+            "examples": ["Canada Express Entry", "Australia 189"],
+            "pros": ["One-time process", "Immediate permanent status"],
+            "cons": ["Higher requirements", "Competitive"]
+        },
+        "work_to_pr": {
+            "description": "Temporary work visa leading to PR",
+            "typical_timeline": "2-5 years",
+            "examples": ["UK Skilled Worker → ILR", "US H-1B → Green Card"],
+            "pros": ["Earn while waiting", "Employer support"],
+            "cons": ["Longer process", "Employer dependent initially"]
+        },
+        "study_to_pr": {
+            "description": "Student visa → post-study work → PR",
+            "typical_timeline": "4-7 years",
+            "examples": ["Canada Study → PGWP → CEC", "Australia 500 → 485 → 189"],
+            "pros": ["Local education valued", "Network building"],
+            "cons": ["High upfront cost", "Longest timeline"]
+        },
+        "stepping_stone": {
+            "description": "Use one country to build profile for another",
+            "typical_timeline": "4-8 years",
+            "examples": ["UAE → Canada (international experience)", "Singapore → US (global company transfer)"],
+            "pros": ["Build stronger profile", "Career advancement"],
+            "cons": ["Complex planning", "Multiple relocations"]
+        }
+    },
+    "visa_selection_factors": {
+        "processing_time": {
+            "weight": 0.15,
+            "description": "How quickly can you start the journey"
+        },
+        "success_probability": {
+            "weight": 0.25,
+            "description": "Likelihood of approval based on profile"
+        },
+        "path_to_pr_clarity": {
+            "weight": 0.20,
+            "description": "Clear and defined path to permanent status"
+        },
+        "cost": {
+            "weight": 0.15,
+            "description": "Total cost including fees and requirements"
+        },
+        "flexibility": {
+            "weight": 0.10,
+            "description": "Ability to change employers, travel, etc."
+        },
+        "family_inclusion": {
+            "weight": 0.15,
+            "description": "Rights for dependents and family"
+        }
+    }
+}

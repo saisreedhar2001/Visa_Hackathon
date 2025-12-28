@@ -1,0 +1,99 @@
+{
+    "name": "Netherlands",
+    "code": "NL",
+    "region": "Europe",
+    "immigration_friendliness": 8,
+    "fintech_readiness": 8,
+    "processing_speed": 7,
+    "language": "Dutch",
+    "english_proficiency": "Very High",
+    "cost_of_living": "High",
+    "stepping_stone_potential": "High",
+    "unlocks_regions": ["European Union", "Schengen Area"],
+    "skill_demand": ["Software Engineering", "Data Science", "Finance", "Engineering", "Creative Industries"],
+    "notes": "Very English-friendly. 30% tax ruling for expats. Strong tech scene (Amsterdam, Eindhoven). Good work-life balance. EU access.",
+    "visa_types": [
+        {
+            "type": "highly_skilled_migrant",
+            "name": "Highly Skilled Migrant Visa (Kennismigrant)",
+            "description": "For skilled workers. Employer must be recognized sponsor.",
+            "requirements": [
+                "Job offer from recognized sponsor",
+                "Salary threshold €4,840/month (under 30) or €6,245/month (over 30)",
+                "Recent graduates have lower threshold"
+            ],
+            "processing_time": "2-4 weeks",
+            "duration": "Up to 5 years (matches contract)",
+            "path_to_pr": "5 years residence → PR or faster via integration",
+            "application_fee": "€320",
+            "work_permitted": true,
+            "employer_tied": true,
+            "family_allowed": true,
+            "spouse_work_rights": "Full work rights (no separate permit needed)",
+            "tips": [
+                "30% tax ruling: 30% of salary tax-free for 5 years",
+                "Most tech companies are recognized sponsors",
+                "Amsterdam has strong startup scene"
+            ]
+        },
+        {
+            "type": "eu_blue_card_nl",
+            "name": "EU Blue Card (Netherlands)",
+            "description": "EU-wide work permit for highly qualified workers.",
+            "requirements": [
+                "Higher education degree",
+                "Employment contract for at least 1 year",
+                "Gross annual salary minimum €67,320"
+            ],
+            "processing_time": "2-4 weeks",
+            "duration": "Up to 4 years",
+            "path_to_pr": "Can move within EU after 18 months",
+            "application_fee": "€320",
+            "work_permitted": true,
+            "tips": [
+                "Higher salary threshold than Kennismigrant",
+                "Advantage: EU mobility after 18 months",
+                "Most tech workers use Kennismigrant instead"
+            ]
+        },
+        {
+            "type": "startup_visa",
+            "name": "Startup Visa",
+            "description": "For entrepreneurs starting innovative businesses with a facilitator.",
+            "requirements": [
+                "Cooperation agreement with recognized facilitator",
+                "Innovative product/service",
+                "Sustainable business plan"
+            ],
+            "processing_time": "2-8 weeks",
+            "duration": "1 year",
+            "path_to_pr": "Convert to self-employed visa after 1 year",
+            "application_fee": "€350",
+            "work_permitted": true,
+            "tips": [
+                "Many incubators act as facilitators",
+                "Access to startup ecosystem",
+                "Can bring spouse"
+            ]
+        },
+        {
+            "type": "orientation_year",
+            "name": "Orientation Year (Zoekjaar)",
+            "description": "1-year visa to search for work after graduating from Dutch or top-ranked foreign university.",
+            "requirements": [
+                "Graduated from Dutch university within 3 years OR",
+                "Graduated from top 200 university (foreign) within 3 years"
+            ],
+            "processing_time": "2-4 weeks",
+            "duration": "1 year",
+            "path_to_pr": "Find job → Kennismigrant → PR",
+            "application_fee": "€192",
+            "work_permitted": true,
+            "tips": [
+                "Can work any job during orientation year",
+                "Apply within 3 years of graduation",
+                "Good for job hunting in NL"
+            ]
+        }
+    ]
+}

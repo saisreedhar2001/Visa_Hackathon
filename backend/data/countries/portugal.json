@@ -1,0 +1,100 @@
+{
+    "name": "Portugal",
+    "code": "PT",
+    "region": "Europe",
+    "immigration_friendliness": 9,
+    "fintech_readiness": 7,
+    "processing_speed": 5,
+    "language": "Portuguese",
+    "english_proficiency": "Medium",
+    "cost_of_living": "Medium",
+    "stepping_stone_potential": "High",
+    "unlocks_regions": ["European Union", "Schengen Area"],
+    "skill_demand": ["Software Engineering", "Tech", "Digital Marketing", "Customer Service"],
+    "notes": "Very welcoming to immigrants. Growing tech scene (Lisbon, Porto). Lower cost than Northern Europe. Path to EU citizenship. NHR tax regime.",
+    "visa_types": [
+        {
+            "type": "tech_visa",
+            "name": "Tech Visa",
+            "description": "Fast-track visa for tech professionals joining certified companies.",
+            "requirements": [
+                "Job offer from certified tech company",
+                "Relevant qualifications or experience",
+                "Employment contract"
+            ],
+            "processing_time": "10-30 days",
+            "duration": "Up to 2 years (renewable)",
+            "path_to_pr": "5 years → PR, then citizenship",
+            "application_fee": "€90",
+            "work_permitted": true,
+            "family_allowed": true,
+            "tips": [
+                "Fastest tech visa in Europe",
+                "Many startups are certified",
+                "Lisbon has strong tech scene"
+            ]
+        },
+        {
+            "type": "d7",
+            "name": "D7 Passive Income Visa",
+            "description": "For those with passive income (remote workers, retirees, investors).",
+            "requirements": [
+                "Proof of stable passive income (~€760/month minimum)",
+                "Health insurance",
+                "Clean criminal record",
+                "Accommodation proof"
+            ],
+            "processing_time": "2-4 months",
+            "duration": "2 years (renewable)",
+            "path_to_pr": "5 years → PR → Citizenship",
+            "application_fee": "€90",
+            "work_permitted": true,
+            "tips": [
+                "Remote work income qualifies",
+                "Can freelance and consult",
+                "Lower cost of living than most EU"
+            ]
+        },
+        {
+            "type": "digital_nomad",
+            "name": "Digital Nomad Visa",
+            "description": "For remote workers employed by foreign companies.",
+            "requirements": [
+                "Remote employment with non-Portuguese company",
+                "Minimum income €3,040/month",
+                "Health insurance"
+            ],
+            "processing_time": "2-4 months",
+            "duration": "1 year (renewable up to 5 years)",
+            "path_to_pr": "5 years → PR",
+            "application_fee": "€90",
+            "work_permitted": true,
+            "tips": [
+                "Can work remotely for any foreign employer",
+                "Great quality of life",
+                "Access to EU"
+            ]
+        },
+        {
+            "type": "work_visa",
+            "name": "Work Visa (General)",
+            "description": "Standard work visa for those with Portuguese job offers.",
+            "requirements": [
+                "Job offer from Portuguese employer",
+                "Contract meeting labor laws",
+                "Qualifications for the role"
+            ],
+            "processing_time": "2-3 months",
+            "duration": "Matches contract (up to 2 years)",
+            "path_to_pr": "5 years continuous residence",
+            "application_fee": "€90",
+            "work_permitted": true,
+            "employer_tied": true,
+            "tips": [
+                "Employer must prove no EU candidate available",
+                "Tech sector often exempt from labor market test",
+                "NHR tax regime can reduce taxes significantly"
+            ]
+        }
+    ]
+}

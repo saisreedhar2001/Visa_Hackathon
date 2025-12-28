@@ -1,0 +1,103 @@
+{
+    "name": "United Kingdom",
+    "code": "GB",
+    "region": "Europe",
+    "immigration_friendliness": 6,
+    "fintech_readiness": 9,
+    "processing_speed": 7,
+    "language": "English",
+    "cost_of_living": "Very High",
+    "stepping_stone_potential": "Medium",
+    "unlocks_regions": ["UK", "Commonwealth connections"],
+    "skill_demand": ["Software Engineering", "Finance", "Healthcare", "Data Science", "Engineering"],
+    "notes": "Points-based system post-Brexit. High salary requirements. Strong tech sector especially in London. NHS healthcare.",
+    "visa_types": [
+        {
+            "type": "skilled_worker",
+            "name": "Skilled Worker Visa",
+            "description": "Main work visa for skilled professionals with job offer.",
+            "requirements": [
+                "Job offer from licensed sponsor",
+                "Minimum salary £26,200 or going rate (whichever higher)",
+                "English language B1",
+                "70 points on points-based assessment"
+            ],
+            "processing_time": "3-8 weeks",
+            "duration": "Up to 5 years",
+            "path_to_pr": "5 years continuous residence → ILR",
+            "application_fee": "£719-1,500 + £1,035/year health surcharge",
+            "work_permitted": true,
+            "employer_tied": true,
+            "family_allowed": true,
+            "spouse_work_rights": "Full work rights",
+            "tips": [
+                "Shortage occupation list has lower salary threshold",
+                "PhD holders get extra points",
+                "Can switch employers with new sponsor"
+            ]
+        },
+        {
+            "type": "global_talent",
+            "name": "Global Talent Visa",
+            "description": "For leaders and potential leaders in tech, science, arts, etc.",
+            "requirements": [
+                "Endorsement from approved body (Tech Nation for tech)",
+                "Evidence of exceptional talent or promise"
+            ],
+            "processing_time": "3-8 weeks",
+            "duration": "Up to 5 years",
+            "path_to_pr": "3 years for exceptional talent, 5 for exceptional promise",
+            "application_fee": "£716 + endorsement fee",
+            "work_permitted": true,
+            "employer_tied": false,
+            "family_allowed": true,
+            "tips": [
+                "No job offer required",
+                "Can be self-employed or freelance",
+                "Tech Nation endorsement is rigorous but achievable"
+            ]
+        },
+        {
+            "type": "high_potential",
+            "name": "High Potential Individual Visa",
+            "description": "For recent graduates of top global universities.",
+            "requirements": [
+                "Graduated from eligible top university in last 5 years",
+                "English language requirement",
+                "Maintenance funds"
+            ],
+            "processing_time": "3-8 weeks",
+            "duration": "2 years (3 for PhD)",
+            "path_to_pr": "Switch to Skilled Worker after finding job",
+            "application_fee": "£822",
+            "work_permitted": true,
+            "employer_tied": false,
+            "tips": [
+                "Only ~40 universities qualify globally",
+                "No job offer needed",
+                "Good for job hunting in UK"
+            ]
+        },
+        {
+            "type": "student",
+            "name": "Student Visa",
+            "description": "Study at UK universities with post-study work options.",
+            "requirements": [
+                "CAS from licensed institution",
+                "Proof of funds (tuition + £1,334/month London, £1,023 elsewhere)",
+                "English language requirement"
+            ],
+            "processing_time": "3-8 weeks",
+            "duration": "Length of course",
+            "path_to_pr": "Graduate route (2-3 years) → Skilled Worker → ILR",
+            "application_fee": "£490 + health surcharge",
+            "work_permitted": true,
+            "work_hours_limit": "20 hours/week term time, full-time vacation",
+            "tips": [
+                "Graduate route gives 2 years post-study work",
+                "PhD gets 3 years Graduate route",
+                "Many scholarships available"
+            ]
+        }
+    ]
+}

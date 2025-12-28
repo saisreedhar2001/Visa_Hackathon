@@ -1,0 +1,30 @@
+# OpenAI Configuration
+# OPENAI_API_KEY=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
+
+# Pinecone Configuration
+PINECONE_API_KEY=pcsk_5D77JN_5QtdDGZXXRxJBFKsE8LzTSvwEK3EcNdR3zszsgXfBz82FT5uzwLkxbys6tuRQds
+PINECONE_ENVIRONMENT=us-east-1
+PINECONE_INDEX_NAME=visa-policies
+
+# Application Settings
+DEBUG=true
+LOG_LEVEL=INFO
+
+GEMINI_API_KEY=AIzaSyBI44aL9i35uYI15glCKPdPFk7JCFY5tR4
+
+AMADEUS_API_KEY=k8s6lEWKGsZMebzA8AK4LHNIGpys9S8D
+
+AMADEUS_API_SECRET=fvpKU7mZ9hf8qqNn
+
+
+# Groq Model (llama-3.3-70b-versatile is fast and powerful)
+GROQ_MODEL=llama-3.3-70b-versatile
+
+
+
+
+# Groq Configuration
+# Get your API key from: https://console.groq.com/keys
+GROQ_API_KEY=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
+
+

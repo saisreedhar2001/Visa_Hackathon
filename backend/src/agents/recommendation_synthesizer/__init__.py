@@ -1,0 +1,2 @@
+# Recommendation Synthesizer Agent
+from src.agents.recommendation_synthesizer.agent import create_recommendation_synthesizer

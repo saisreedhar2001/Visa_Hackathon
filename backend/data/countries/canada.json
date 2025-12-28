@@ -1,0 +1,113 @@
+{
+    "name": "Canada",
+    "code": "CA",
+    "region": "North America",
+    "immigration_friendliness": 9,
+    "fintech_readiness": 8,
+    "processing_speed": 6,
+    "language": "English, French",
+    "cost_of_living": "High",
+    "stepping_stone_potential": "Low",
+    "unlocks_regions": ["North America"],
+    "skill_demand": ["Software Engineering", "Data Science", "Healthcare", "Engineering", "Skilled Trades"],
+    "notes": "Points-based Express Entry system. High demand for tech workers. Clear path to PR and citizenship.",
+    "visa_types": [
+        {
+            "type": "express_entry",
+            "name": "Express Entry (Federal Skilled Worker)",
+            "description": "Points-based immigration system for skilled workers. Primary pathway for tech professionals.",
+            "requirements": [
+                "Minimum 67 points on selection factors",
+                "At least 1 year continuous skilled work experience",
+                "Language test (IELTS/CELPIP) with minimum CLB 7",
+                "Educational Credential Assessment (ECA)",
+                "Proof of funds (unless you have valid job offer)"
+            ],
+            "processing_time": "6-8 months",
+            "duration": "Permanent Resident",
+            "path_to_pr": "Direct PR on arrival",
+            "application_fee": "CAD 1,365",
+            "financial_requirement": "CAD 13,757 (single) to CAD 36,407 (family of 7+)",
+            "work_permitted": true,
+            "family_allowed": true,
+            "spouse_work_rights": "Open work permit for spouse",
+            "common_rejection_reasons": [
+                "Insufficient language scores",
+                "Unable to verify work experience",
+                "Incomplete documentation"
+            ],
+            "tips": [
+                "IELTS 8+ band significantly boosts CRS score",
+                "Provincial Nomination adds 600 points",
+                "Canadian work/study experience adds points"
+            ]
+        },
+        {
+            "type": "pnp",
+            "name": "Provincial Nominee Program",
+            "description": "Province-specific immigration programs. Can add 600 CRS points to Express Entry.",
+            "requirements": [
+                "Meet specific province requirements",
+                "Express Entry profile (for enhanced PNP)",
+                "Intent to reside in nominating province"
+            ],
+            "processing_time": "12-18 months",
+            "duration": "Permanent Resident",
+            "path_to_pr": "Direct PR",
+            "application_fee": "Varies by province + Federal fees",
+            "work_permitted": true,
+            "family_allowed": true,
+            "tips": [
+                "Ontario and BC have tech-specific streams",
+                "Alberta has lower requirements",
+                "Some provinces have no minimum CRS requirement"
+            ]
+        },
+        {
+            "type": "work_permit",
+            "name": "Employer-Sponsored Work Permit (LMIA)",
+            "description": "Work permit requiring Canadian job offer with Labour Market Impact Assessment.",
+            "requirements": [
+                "Valid job offer from Canadian employer",
+                "Employer must obtain positive LMIA",
+                "Relevant qualifications for the job"
+            ],
+            "processing_time": "2-4 months",
+            "duration": "Up to 3 years (renewable)",
+            "path_to_pr": "Can apply for Express Entry after 1 year Canadian experience",
+            "application_fee": "CAD 155 + LMIA fee CAD 1,000",
+            "work_permitted": true,
+            "employer_tied": true,
+            "family_allowed": true,
+            "tips": [
+                "Canadian experience adds 40-80 CRS points",
+                "Some employers are LMIA-exempt",
+                "Global Talent Stream has faster processing"
+            ]
+        },
+        {
+            "type": "study_permit",
+            "name": "Study Permit (Student Visa)",
+            "description": "Permit for international students. Popular pathway to PR through PGWP.",
+            "requirements": [
+                "Acceptance letter from DLI",
+                "Proof of funds for tuition and living",
+                "Clean background check",
+                "Medical exam"
+            ],
+            "processing_time": "2-3 months",
+            "duration": "Length of study program + 90 days",
+            "path_to_pr": "PGWP → Canadian Experience Class → PR",
+            "application_fee": "CAD 150",
+            "work_permitted": true,
+            "work_hours_limit": "20 hours/week during studies, full-time during breaks",
+            "family_allowed": true,
+            "spouse_work_rights": "Open work permit if student in Master's/PhD",
+            "tips": [
+                "PGWP length equals study duration (max 3 years)",
+                "1 year Canadian work = CEC eligibility",
+                "Co-op programs allow full-time work"
+            ]
+        }
+    ]
+}

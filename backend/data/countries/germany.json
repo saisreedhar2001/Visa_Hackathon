@@ -1,0 +1,109 @@
+{
+    "name": "Germany",
+    "code": "DE",
+    "region": "Europe",
+    "immigration_friendliness": 8,
+    "fintech_readiness": 7,
+    "processing_speed": 7,
+    "language": "German",
+    "english_proficiency": "High",
+    "cost_of_living": "Medium-High",
+    "stepping_stone_potential": "High",
+    "unlocks_regions": ["European Union", "Schengen Area"],
+    "skill_demand": ["Software Engineering", "IT", "Engineering", "Healthcare", "Research"],
+    "notes": "EU Blue Card is very attractive. Fast path to PR. Gateway to entire EU. No tuition for public universities.",
+    "visa_types": [
+        {
+            "type": "eu_blue_card",
+            "name": "EU Blue Card",
+            "description": "Premium work visa for highly qualified professionals. Best option for tech workers.",
+            "requirements": [
+                "University degree (recognized in Germany)",
+                "Job offer with minimum salary €45,300 (€41,041 for shortage occupations)",
+                "The job must match your qualification",
+                "Health insurance"
+            ],
+            "processing_time": "1-3 months",
+            "duration": "4 years (or contract length + 3 months)",
+            "path_to_pr": "21 months with B1 German, 33 months without",
+            "application_fee": "€75-100",
+            "work_permitted": true,
+            "employer_tied": false,
+            "family_allowed": true,
+            "spouse_work_rights": "Immediate work rights for spouse",
+            "common_rejection_reasons": [
+                "Degree not recognized",
+                "Salary below threshold",
+                "Job doesn't match qualification"
+            ],
+            "tips": [
+                "IT/Tech jobs are shortage occupations (lower salary threshold)",
+                "Fastest path to German/EU PR",
+                "Can move to another EU country after 18 months",
+                "Learn basic German for faster PR"
+            ]
+        },
+        {
+            "type": "skilled_worker",
+            "name": "Skilled Immigration Act Visa",
+            "description": "For skilled workers with vocational training or work experience.",
+            "requirements": [
+                "Recognized qualification or 2+ years relevant experience",
+                "Job offer from German employer",
+                "German language skills (varies by job)"
+            ],
+            "processing_time": "2-4 months",
+            "duration": "Up to 4 years",
+            "path_to_pr": "4 years + B1 German + pension contributions",
+            "application_fee": "€75",
+            "work_permitted": true,
+            "tips": [
+                "IT sector has relaxed requirements",
+                "Experience can substitute for formal degrees"
+            ]
+        },
+        {
+            "type": "job_seeker",
+            "name": "Job Seeker Visa",
+            "description": "6-month visa to search for employment in Germany.",
+            "requirements": [
+                "University degree (recognized)",
+                "Proof of funds (€947/month)",
+                "Health insurance",
+                "No work allowed on this visa"
+            ],
+            "processing_time": "1-2 months",
+            "duration": "6 months",
+            "path_to_pr": "Find job → Convert to work visa → PR path",
+            "application_fee": "€75",
+            "work_permitted": false,
+            "tips": [
+                "Good option if no job offer yet",
+                "Use time to network and interview",
+                "Can convert to Blue Card once employed"
+            ]
+        },
+        {
+            "type": "student",
+            "name": "Student Visa",
+            "description": "Study at German universities (many are tuition-free).",
+            "requirements": [
+                "University admission letter",
+                "Proof of funds (€11,208/year in blocked account)",
+                "Health insurance",
+                "German language proof (for German-taught programs)"
+            ],
+            "processing_time": "1-3 months",
+            "duration": "Length of study + 18 months job search",
+            "path_to_pr": "Graduate → 18 months job search → Blue Card → PR",
+            "application_fee": "€75",
+            "work_permitted": true,
+            "work_hours_limit": "120 full days or 240 half days per year",
+            "tips": [
+                "Public universities are tuition-free",
+                "Many Master's programs in English",
+                "18-month post-study job search visa"
+            ]
+        }
+    ]
+}

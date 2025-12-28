@@ -1,0 +1,148 @@
+{
+    "description": "Financial requirements by country and visa type",
+    "currency_conversion_usd": {
+        "CAD": 0.74,
+        "EUR": 1.08,
+        "GBP": 1.26,
+        "AED": 0.27,
+        "SGD": 0.74,
+        "AUD": 0.65,
+        "JPY": 0.0067
+    },
+    "countries": {
+        "canada": {
+            "express_entry": {
+                "single": { "amount": 13757, "currency": "CAD" },
+                "couple": { "amount": 17127, "currency": "CAD" },
+                "family_3": { "amount": 21055, "currency": "CAD" },
+                "family_4": { "amount": 25564, "currency": "CAD" },
+                "notes": "Proof of funds not required if you have valid job offer or currently work in Canada"
+            },
+            "study_permit": {
+                "tuition_yearly_avg": { "amount": 20000, "currency": "CAD" },
+                "living_costs_yearly": { "amount": 15000, "currency": "CAD" },
+                "notes": "Need to show funds for first year tuition + living costs"
+            }
+        },
+        "germany": {
+            "eu_blue_card": {
+                "minimum_salary": { "amount": 45300, "currency": "EUR" },
+                "shortage_occupation_salary": { "amount": 41041, "currency": "EUR" },
+                "notes": "IT/Tech considered shortage occupation with lower threshold"
+            },
+            "job_seeker_visa": {
+                "monthly_required": { "amount": 947, "currency": "EUR" },
+                "total_6_months": { "amount": 5682, "currency": "EUR" }
+            },
+            "student_visa": {
+                "blocked_account_yearly": { "amount": 11208, "currency": "EUR" },
+                "notes": "Tuition-free at public universities, only living costs required"
+            }
+        },
+        "uae": {
+            "employment_visa": {
+                "notes": "Employer typically handles costs, no proof of funds needed"
+            },
+            "golden_visa": {
+                "investment_minimum": { "amount": 2000000, "currency": "AED" },
+                "property_minimum": { "amount": 2000000, "currency": "AED" }
+            },
+            "green_visa": {
+                "minimum_salary": { "amount": 15000, "currency": "AED", "per": "month" }
+            }
+        },
+        "usa": {
+            "f1_student": {
+                "i20_amount": "Varies by institution",
+                "living_costs_yearly": { "amount": 15000, "currency": "USD" },
+                "notes": "Need to show full funding for entire program"
+            },
+            "h1b": {
+                "notes": "No personal financial requirement, employer pays costs"
+            }
+        },
+        "uk": {
+            "skilled_worker": {
+                "minimum_salary": { "amount": 26200, "currency": "GBP" },
+                "health_surcharge_yearly": { "amount": 1035, "currency": "GBP" },
+                "notes": "Must pay Immigration Health Surcharge upfront"
+            },
+            "student": {
+                "living_london_monthly": { "amount": 1334, "currency": "GBP" },
+                "living_outside_london_monthly": { "amount": 1023, "currency": "GBP" },
+                "months_required": 9
+            }
+        },
+        "australia": {
+            "skilled_189_190": {
+                "notes": "No specific financial requirement for PR visa"
+            },
+            "student_500": {
+                "yearly_living": { "amount": 24505, "currency": "AUD" },
+                "notes": "Genuine Temporary Entrant requirement includes financial capacity"
+            }
+        },
+        "singapore": {
+            "employment_pass": {
+                "minimum_salary_entry": { "amount": 5000, "currency": "SGD", "per": "month" },
+                "minimum_salary_mid": { "amount": 5500, "currency": "SGD", "per": "month" },
+                "minimum_salary_senior": { "amount": 10500, "currency": "SGD", "per": "month" },
+                "notes": "Salary threshold increases with age/experience"
+            },
+            "tech_pass": {
+                "minimum_salary": { "amount": 22500, "currency": "SGD", "per": "month" }
+            }
+        },
+        "netherlands": {
+            "highly_skilled_migrant": {
+                "salary_under_30": { "amount": 4840, "currency": "EUR", "per": "month" },
+                "salary_over_30": { "amount": 6245, "currency": "EUR", "per": "month" },
+                "salary_recent_graduate": { "amount": 2631, "currency": "EUR", "per": "month" },
+                "notes": "30% ruling makes gross salary go further (30% tax-free)"
+            }
+        },
+        "portugal": {
+            "d7_passive_income": {
+                "minimum_monthly": { "amount": 760, "currency": "EUR" },
+                "notes": "Based on Portuguese minimum wage, remote income qualifies"
+            },
+            "digital_nomad": {
+                "minimum_monthly": { "amount": 3040, "currency": "EUR" },
+                "notes": "4x minimum wage requirement"
+            }
+        },
+        "japan": {
+            "hsp_visa": {
+                "points_for_salary": {
+                    "3M_plus_yen": 40,
+                    "4M_plus_yen": 35,
+                    "5M_plus_yen": 30,
+                    "6M_plus_yen": 25
+                },
+                "notes": "Higher salary = more points toward 70-point threshold"
+            }
+        }
+    },
+    "financial_health_scoring": {
+        "excellent": {
+            "savings_months": 12,
+            "income_multiplier": 2.0,
+            "description": "Can cover requirements with significant buffer"
+        },
+        "good": {
+            "savings_months": 6,
+            "income_multiplier": 1.5,
+            "description": "Meets requirements comfortably"
+        },
+        "moderate": {
+            "savings_months": 3,
+            "income_multiplier": 1.0,
+            "description": "Meets minimum requirements"
+        },
+        "at_risk": {
+            "savings_months": 1,
+            "income_multiplier": 0.8,
+            "description": "May not meet requirements or very tight"
+        }
+    }
+}

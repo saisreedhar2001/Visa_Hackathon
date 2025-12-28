@@ -1,0 +1,108 @@
+{
+    "name": "United States",
+    "code": "US",
+    "region": "North America",
+    "immigration_friendliness": 5,
+    "fintech_readiness": 9,
+    "processing_speed": 4,
+    "language": "English",
+    "cost_of_living": "High",
+    "stepping_stone_potential": "Low",
+    "unlocks_regions": ["North America"],
+    "skill_demand": ["Software Engineering", "Data Science", "AI/ML", "Healthcare", "Research"],
+    "notes": "H1B lottery system makes it unpredictable. Very competitive but highest salaries in tech. Long green card backlogs for some countries.",
+    "visa_types": [
+        {
+            "type": "h1b",
+            "name": "H-1B Specialty Occupation Visa",
+            "description": "Primary work visa for skilled professionals. Subject to annual lottery.",
+            "requirements": [
+                "Bachelor's degree or higher (or equivalent)",
+                "Job offer in specialty occupation",
+                "Employer must file petition",
+                "Prevailing wage requirement"
+            ],
+            "processing_time": "3-6 months after selection",
+            "duration": "3 years (extendable to 6)",
+            "path_to_pr": "Employer sponsors Green Card (PERM → I-140 → I-485)",
+            "application_fee": "$1,710-6,460+ (employer pays most)",
+            "work_permitted": true,
+            "employer_tied": true,
+            "family_allowed": true,
+            "spouse_work_rights": "H-4 EAD if I-140 approved (uncertain policy)",
+            "common_rejection_reasons": [
+                "Specialty occupation challenge",
+                "Insufficient documentation",
+                "Lottery not selected"
+            ],
+            "tips": [
+                "Only 85,000 visas/year, 300,000+ applicants",
+                "Master's cap has better odds",
+                "Apply through multiple employers if possible",
+                "Consider alternatives: L-1, O-1"
+            ]
+        },
+        {
+            "type": "l1",
+            "name": "L-1 Intracompany Transfer",
+            "description": "Transfer within same company from foreign office to US.",
+            "requirements": [
+                "1 year employment with company abroad",
+                "Managerial/executive role (L-1A) or specialized knowledge (L-1B)",
+                "US entity must be related to foreign employer"
+            ],
+            "processing_time": "1-3 months",
+            "duration": "L-1A: 7 years, L-1B: 5 years",
+            "path_to_pr": "Can sponsor Green Card, L-1A has EB-1C path",
+            "application_fee": "$1,385-4,500+",
+            "work_permitted": true,
+            "employer_tied": true,
+            "tips": [
+                "No lottery - predictable",
+                "L-1A can lead to EB-1C Green Card (no labor certification)",
+                "Spouse gets automatic work permit"
+            ]
+        },
+        {
+            "type": "o1",
+            "name": "O-1 Extraordinary Ability",
+            "description": "For individuals with extraordinary ability or achievement.",
+            "requirements": [
+                "Sustained national/international acclaim",
+                "Evidence of extraordinary ability (awards, publications, etc.)",
+                "Coming to work in area of expertise"
+            ],
+            "processing_time": "2-4 months (premium: 15 days)",
+            "duration": "3 years (renewable)",
+            "path_to_pr": "Can self-petition for EB-1A Green Card",
+            "application_fee": "$1,055+",
+            "work_permitted": true,
+            "tips": [
+                "No lottery, no cap",
+                "Tech can qualify (GitHub stars, conferences, patents)",
+                "More flexible than people think"
+            ]
+        },
+        {
+            "type": "f1",
+            "name": "F-1 Student Visa",
+            "description": "Student visa with OPT work authorization post-graduation.",
+            "requirements": [
+                "Acceptance to SEVP-certified school",
+                "Proof of funds",
+                "Intent to return home (non-immigrant intent)"
+            ],
+            "processing_time": "1-3 months",
+            "duration": "Length of study + 60 days",
+            "path_to_pr": "OPT → H-1B lottery → Green Card (or try O-1)",
+            "application_fee": "$185 + $350 SEVIS",
+            "work_permitted": true,
+            "work_hours_limit": "20 hours during school, full-time OPT after",
+            "tips": [
+                "STEM OPT: 3 years work authorization",
+                "Multiple H-1B lottery attempts during OPT",
+                "Build US network while studying"
+            ]
+        }
+    ]
+}

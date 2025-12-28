@@ -1,0 +1,99 @@
+{
+    "name": "Singapore",
+    "code": "SG",
+    "region": "Asia",
+    "immigration_friendliness": 7,
+    "fintech_readiness": 10,
+    "processing_speed": 9,
+    "language": "English, Mandarin, Malay, Tamil",
+    "english_proficiency": "High",
+    "cost_of_living": "Very High",
+    "stepping_stone_potential": "High",
+    "unlocks_regions": ["Asia", "Global mobility hub"],
+    "skill_demand": ["Software Engineering", "Finance", "Data Science", "Fintech", "Healthcare"],
+    "notes": "Global fintech hub. Very efficient immigration. High salaries but expensive. Strong tech scene. Good for building Asia network.",
+    "visa_types": [
+        {
+            "type": "employment_pass",
+            "name": "Employment Pass (EP)",
+            "description": "For professionals, managers, and executives. Main work visa for tech workers.",
+            "requirements": [
+                "Job offer with minimum salary $5,000/month (higher for experienced)",
+                "Acceptable qualifications",
+                "COMPASS framework points (from Sept 2023)"
+            ],
+            "processing_time": "3-8 weeks",
+            "duration": "Up to 2 years (renewable up to 3 years)",
+            "path_to_pr": "Can apply for PR after 6 months, typically approved after 2+ years",
+            "application_fee": "SGD 105",
+            "work_permitted": true,
+            "employer_tied": true,
+            "family_allowed": true,
+            "spouse_work_rights": "Dependent Pass needs separate work authorization",
+            "tips": [
+                "Tech companies often meet COMPASS requirements",
+                "Higher salary = easier approval",
+                "Contribute to CPF for stronger PR case"
+            ]
+        },
+        {
+            "type": "sp",
+            "name": "S Pass",
+            "description": "For mid-level skilled workers. Lower salary threshold than EP.",
+            "requirements": [
+                "Minimum salary $3,150/month",
+                "Relevant qualifications",
+                "Company quota requirements"
+            ],
+            "processing_time": "3-8 weeks",
+            "duration": "Up to 2 years",
+            "path_to_pr": "Can apply, but EP holders preferred",
+            "application_fee": "SGD 105",
+            "work_permitted": true,
+            "tips": [
+                "Good stepping stone to EP",
+                "Subject to company quotas",
+                "Consider upgrading to EP when eligible"
+            ]
+        },
+        {
+            "type": "tech_pass",
+            "name": "Tech.Pass",
+            "description": "For established tech entrepreneurs and leaders.",
+            "requirements": [
+                "One of: Led tech company valued at $500M+, Led significant product development, Key experience at top tech company",
+                "Salary of at least $22,500/month in last 1 year"
+            ],
+            "processing_time": "4-8 weeks",
+            "duration": "2 years",
+            "path_to_pr": "Strong path to PR",
+            "application_fee": "SGD 105",
+            "work_permitted": true,
+            "employer_tied": false,
+            "tips": [
+                "Can start and work for multiple companies",
+                "Prestigious status",
+                "Limited annual quota"
+            ]
+        },
+        {
+            "type": "entrepass",
+            "name": "EntrePass",
+            "description": "For entrepreneurs starting innovative businesses in Singapore.",
+            "requirements": [
+                "Own at least 30% of company",
+                "Company is VC-funded, or incubator-backed, or you have strong track record"
+            ],
+            "processing_time": "8-12 weeks",
+            "duration": "1 year (renewable)",
+            "path_to_pr": "Possible after business success",
+            "application_fee": "SGD 105",
+            "work_permitted": true,
+            "tips": [
+                "Need to meet renewal criteria (jobs, revenue)",
+                "Government grants available",
+                "Access to startup ecosystem"
+            ]
+        }
+    ]
+}

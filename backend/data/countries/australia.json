@@ -1,0 +1,104 @@
+{
+    "name": "Australia",
+    "code": "AU",
+    "region": "Asia-Pacific",
+    "immigration_friendliness": 8,
+    "fintech_readiness": 8,
+    "processing_speed": 5,
+    "language": "English",
+    "cost_of_living": "High",
+    "stepping_stone_potential": "Low",
+    "unlocks_regions": ["Asia-Pacific", "NZ via Trans-Tasman"],
+    "skill_demand": ["Software Engineering", "Data Science", "Healthcare", "Engineering", "Trades"],
+    "notes": "Points-based system similar to Canada. Strong economy. Great lifestyle but slower processing than Canada. State nomination adds points.",
+    "visa_types": [
+        {
+            "type": "skilled_independent",
+            "name": "Skilled Independent Visa (Subclass 189)",
+            "description": "Points-tested permanent visa. No employer or state sponsor needed.",
+            "requirements": [
+                "Occupation on skilled occupation list",
+                "Skills assessment from relevant authority",
+                "65+ points on points test",
+                "Under 45 years old",
+                "Competent English (IELTS 6+)"
+            ],
+            "processing_time": "6-12 months",
+            "duration": "Permanent",
+            "path_to_pr": "Direct PR",
+            "application_fee": "AUD 4,640",
+            "work_permitted": true,
+            "family_allowed": true,
+            "tips": [
+                "Higher points = faster invitation",
+                "State nomination (190) easier entry",
+                "PTE often gives better scores than IELTS"
+            ]
+        },
+        {
+            "type": "skilled_nominated",
+            "name": "Skilled Nominated Visa (Subclass 190)",
+            "description": "State-nominated permanent visa. Adds 5 points to your score.",
+            "requirements": [
+                "Occupation on state's skilled list",
+                "State/territory nomination",
+                "65+ points (including nomination points)",
+                "Commit to live in nominating state for 2 years"
+            ],
+            "processing_time": "6-12 months",
+            "duration": "Permanent",
+            "path_to_pr": "Direct PR",
+            "application_fee": "AUD 4,640",
+            "work_permitted": true,
+            "tips": [
+                "Different states have different requirements",
+                "NSW and Victoria competitive",
+                "Regional states often faster"
+            ]
+        },
+        {
+            "type": "employer_sponsored",
+            "name": "Temporary Skill Shortage Visa (Subclass 482)",
+            "description": "Employer-sponsored temporary work visa.",
+            "requirements": [
+                "Employer nomination",
+                "Relevant skills and experience",
+                "English competency",
+                "Skills assessment (for some occupations)"
+            ],
+            "processing_time": "1-4 months",
+            "duration": "2-4 years",
+            "path_to_pr": "482 → 186 (Employer Nomination) after 2-3 years",
+            "application_fee": "AUD 1,455-2,645",
+            "work_permitted": true,
+            "employer_tied": true,
+            "tips": [
+                "Medium-term stream (4 years) leads to PR",
+                "Must work for sponsor for 2 years before PR",
+                "Labour Market Testing required"
+            ]
+        },
+        {
+            "type": "student",
+            "name": "Student Visa (Subclass 500)",
+            "description": "Study in Australia with work rights.",
+            "requirements": [
+                "Enrollment in registered course",
+                "Genuine Temporary Entrant requirement",
+                "Financial capacity",
+                "English language requirement"
+            ],
+            "processing_time": "1-2 months",
+            "duration": "Course length + extra time",
+            "path_to_pr": "Graduate visa (485) → Points test → 189/190",
+            "application_fee": "AUD 710",
+            "work_permitted": true,
+            "work_hours_limit": "48 hours per fortnight during studies",
+            "tips": [
+                "Post-study work visa 2-4 years",
+                "Australian study adds points",
+                "Regional study adds more points"
+            ]
+        }
+    ]
+}

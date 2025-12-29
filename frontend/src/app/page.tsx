@@ -169,11 +169,11 @@ export default function Home() {
 
                     <h1 className="text-5xl md:text-7xl font-bold mb-6">
                         <span className="bg-gradient-to-r from-white via-blue-200 to-purple-200 bg-clip-text text-transparent">
-                            Global Mobility
+                            GeoNext
                         </span>
                         <br />
                         <span className="bg-gradient-to-r from-blue-400 via-purple-400 to-pink-400 bg-clip-text text-transparent">
-                            Intelligence
+                            Mobility Intelligence
                         </span>
                     </h1>
 

@@ -1,4 +1,4 @@
-# Global Mobility Intelligence Platform
+# GeoNext AI Platform
 
 AI-powered immigration pathway analysis using multi-agent collaboration with RAG grounding.
 

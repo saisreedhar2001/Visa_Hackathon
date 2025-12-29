@@ -5,7 +5,7 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-    title: "Global Mobility Intelligence Platform",
+    title: "GeoNext AI",
     description: "AI-powered immigration pathway analysis with multi-agent reasoning",
     keywords: ["immigration", "visa", "mobility", "AI", "pathway analysis"],
 };
@@ -23,10 +23,10 @@ export default function RootLayout({
                         <div className="container mx-auto px-4 py-4 flex items-center justify-between">
                             <a href="/" className="flex items-center gap-2 group">
                                 <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-blue-500 to-purple-600 flex items-center justify-center shadow-lg shadow-purple-500/20 group-hover:shadow-purple-500/40 transition-all">
-                                    <span className="text-white font-bold text-sm">GM</span>
+                                    <span className="text-white font-bold text-sm">GN</span>
                                 </div>
                                 <span className="font-semibold text-lg text-white">
-                                    Mobility Intelligence
+                                    GeoNext AI
                                 </span>
                             </a>
                             <nav className="flex items-center gap-6 text-sm">
@@ -54,7 +54,7 @@ export default function RootLayout({
                     </main>
                     <footer className="border-t border-white/10 py-8 bg-slate-900/30 backdrop-blur-sm">
                         <div className="container mx-auto px-4">
-                            <p className="text-center text-sm text-white/40">Global Mobility Intelligence Platform • Hackathon 2025</p>
+                            <p className="text-center text-sm text-white/40">GeoNext AI Platform • 2025</p>
                             {/* <p className="text-xs mt-1 text-center text-white/30">AI-powered analysis for educational purposes only</p> */}
                             
                             {/* Contact Section */}
